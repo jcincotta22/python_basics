@@ -40,7 +40,7 @@ for turn in range(4):
             print "You guessed that one already."
         else:
             if turn == 3:
-                print "Game Over"
+                print "Game Over: The ship was at ({0}, {1})".format(guess_row, guess_col)
             print "You missed my battleship!"
             board[guess_row][guess_col] = "X"
     print "Turn", turn + 1
