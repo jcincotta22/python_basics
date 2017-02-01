@@ -10,4 +10,4 @@ def digit_sum(n):
         total += n
     return total
 
-print digit_sum(123)
+print digit_sum(1119)
