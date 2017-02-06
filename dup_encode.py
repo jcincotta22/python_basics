@@ -17,3 +17,4 @@ def duplicate_encode(word):
     return output
 
 print duplicate_encode('Jeffrey')
+# ()))()(
