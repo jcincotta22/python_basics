@@ -8,3 +8,16 @@ def censor(word, text):
         else:
             output.append(string)
     return ' '.join(output)
+
+# import unittest
+# # from Experiment import Greeter
+#
+# class MyTestCase(unittest.TestCase):
+#     def test_censor(self):
+#         # this test will fail until you change the Greeter to return this expected message
+#         self.assertEqual(censor('Hello jeff', 'jeff'), 'Hello ****')
+#
+# if __name__ == '__main__':
+#     unittest.main()
+#
+# Test.expect(censor('Hello jeff', 'jeff')== 'Hello ****');

@@ -8,17 +8,17 @@ class Employee:
        Employee.empCount += 1
 
    def displayCount(self):
-       print "Total Employee %d" % Employee.empCount
+       return "Total Employee %d" % Employee.empCount
 
    def displayEmployee(self):
-       print "Name : ", self.name,  ", Salary: ", self.salary
+       return "Name : ", self.name,  ", Salary: ", self.salary
 
 
-emp1 = Employee("Zara", 2000)
-emp2 = Employee("Jeff", 5000)
-print emp1.displayCount()
-print '============'
-print emp1.displayEmployee()
+# emp1 = Employee("Zara", 2000)
+# emp2 = Employee("Jeff", 5000)
+# print emp1.displayCount()
+# print '============'
+# print emp1.displayEmployee()
 
 
 class Customer(object):

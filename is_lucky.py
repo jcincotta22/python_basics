@@ -21,6 +21,6 @@ def is_lucky(ticket):
     else:
         return False
 
-        
 
-print is_lucky('123321')
+
+# print is_lucky('123321')

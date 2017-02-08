@@ -15,6 +15,6 @@ def display_duplicates(num_list):
     return sorted(dups)
 
 
-nums = [1, 2, 2, 3, 4, 5, 5, 7, 8, 11, 12, 11, 1, 2, 15, 12, 99]
-
-print display_duplicates(nums)
+# nums = [1, 2, 2, 3, 4, 5, 5, 7, 8, 11, 12, 11, 1, 2, 15, 12, 99]
+#
+# print display_duplicates(nums)
